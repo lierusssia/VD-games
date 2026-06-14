@@ -1,2 +1,9 @@
-def greet():
-    print("Welcome to the VD_games")
+from VD_games.cli import welcome_user
+
+
+def main():
+    welcome_user()
+
+
+if __name__ == "__main__":
+    main()
